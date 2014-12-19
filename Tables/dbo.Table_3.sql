@@ -3,7 +3,10 @@ SET QUOTED_IDENTIFIER ON
 SET ANSI_PADDING ON
 GO
 CREATE TABLE [dbo].[Table_3] (
-		[tasd]     [nchar](10) COLLATE SQL_Latin1_General_CP1_CI_AS NULL
+		[tasd]      [nchar](10) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+		[erer]      [nchar](10) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+		[test2]     [nchar](10) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+		[test3]     [nchar](10) COLLATE SQL_Latin1_General_CP1_CI_AS NULL
 ) ON [PRIMARY]
 GO
 ALTER TABLE [dbo].[Table_3] SET (LOCK_ESCALATION = TABLE)
